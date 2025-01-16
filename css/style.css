@@ -11,10 +11,40 @@ html{
 }
 
 .menu{
-    background: #124559;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
+    background: #01161E;
+    position: fixed;/*fijo el menu*/
+    width: 100%;/*ocupa el ancho de la ventana*/
+    top: 0;/*0 pixeles de distancia lo coloca en la parte superior*/
+    left: 0;/*0 pixeles de distancia lo coloca en la parte izquierda*/
+    z-index: 99;/*sobre pone el menu sobre los demas elementos*/
+}
+
+.menu header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+
+}
+
+.menu header .logo a{
+    font-size:46px;/*tamaño de la letra*/
+    color: #EFF6E0;
+}
+
+.menu header ul{
+    display: flex;
+    list-style: none;/*quito los puntos de la lista*/
+}
+
+.menu header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+
 }
