@@ -5,13 +5,14 @@
     font-family: 'Arimo';
     margin: 0;
     padding: 0;
+    
 }
 html{
     scroll-behavior: smooth;/*Dezlisa de una manera suave al ahcer click en los menus*/
 }
 
 .menu{
-    background: #01161E;
+    background: #02212D;
     position: fixed;/*fijo el menu*/
     width: 100%;/*ocupa el ancho de la ventana*/
     top: 0;/*0 pixeles de distancia lo coloca en la parte superior*/
@@ -25,13 +26,13 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 24px 20px;
 
 }
 
 .menu header .logo a{
     font-size:46px;/*tamaño de la letra*/
-    color: #EFF6E0;
+    color: white;
 }
 
 .menu header ul{
@@ -41,10 +42,15 @@ html{
 
 .menu header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: white;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 
 }
+
+.menu   header nav ul li a:hover{
+    color: #598392;
+}
+
