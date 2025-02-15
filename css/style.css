@@ -4,6 +4,9 @@
     font-family: "Public Sans", serif;
     padding: 0;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 html{
     scroll-behavior: smooth;
 }
