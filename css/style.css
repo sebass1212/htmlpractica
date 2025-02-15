@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');      
-
 *{
     font-family: "Public Sans", serif;
     padding: 0;
@@ -52,5 +51,13 @@ html{
 
 .menu   header nav ul li a:hover{
     color: #598392;
+}
+
+.contenedor_inicio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10rem;
+    padding-left: 21%;
 }
 
