@@ -3,19 +3,18 @@
 *{
     font-family: "Public Sans", serif;
     padding: 0;
-    
 }
 html{
-    scroll-behavior: smooth;/*Dezlisa de una manera suave al ahcer click en los menus*/
+    scroll-behavior: smooth;
 }
-
+/*comprobacion*/
 .menu{
     background: #02212D;
-    position: fixed;/*fijo el menu*/
-    width: 100%;/*ocupa el ancho de la ventana*/
-    top: 0;/*0 pixeles de distancia lo coloca en la parte superior*/
-    left: 0;/*0 pixeles de distancia lo coloca en la parte izquierda*/
-    z-index: 99;/*sobre pone el menu sobre los demas elementos*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .menu header{
@@ -29,13 +28,13 @@ html{
 }
 
 .menu header .logo a{
-    font-size:46px;/*tamaño de la letra*/
+    font-size:46px;
     color: white;
 }
 
 .menu header ul{
     display: flex;
-    list-style: none;/*quito los puntos de la lista*/
+    list-style: none;/
 }
 
 .menu header nav ul li a{
