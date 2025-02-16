@@ -36,11 +36,10 @@ html{
 
 .menu header ul{
     display: flex;
-    list-style: none;/
+    list-style: none;
 }
 
 .menu header nav ul li a{
-    text-align: none;
     color: white;
     margin: 0 15px;
     padding: 3px;

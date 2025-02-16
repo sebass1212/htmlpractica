@@ -18,10 +18,126 @@
                     <li><a href="index.html">INICIO</a></li>
                     <li><a href="#proyectos">PROYECTO</a></li>
                     <li><a href="https://sebass1212.github.io/PracticaEjercicios/">EJERCICIOS</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="formulario.html">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
     </div>
+
+<style>
+
+.contenedor{
+    width: 100%;
+    height: 37.5rem;
+    margin-top: 9rem;
+    padding-right: 1rem;
+    margin-left: -0.5rem;
+    position: relative;
+    margin-bottom:4.5rem;
+}
+
+.fondo{
+    display:inline-block;
+    background-color: #073547;
+    padding-block: 12rem;
+    margin-block: 2rem;
+    width: 100%;
+    padding-right: 1rem;
+
+  
+}
+.contenido{
+    margin-inline: 25%;
+    color: white;
+    span{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+   }
+   img{
+
+        transform: translateY(5px);
+    }
+}
+.contacto{
+    height: 100%;
+    width: 37rem;
+    background-color:white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    margin-right: 15%;
+    margin-top: 0.7rem;
+    box-shadow: 7px 6px 3px rgba(0, 0, 0, 0.493);
+    
+
+}
+.contacto form{
+    padding: 5rem;
+
+    .contac{
+        font-size: 3rem;
+        padding-bottom: 5rem;
+    }
+}
+.contacto input{
+    border: 0px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #000000; /* Línea debajo del input */
+    padding-block: 0.5rem;
+    padding-right: 7rem;
+    margin-bottom: 5rem;
+}
+
+.contacto button{
+    padding-block: 1.3rem;
+    padding-inline: 2rem;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.contacto button:hover{
+    background-color: #3c8daddc;
+    color: white;
+    transition-duration: 1s;
+}
+</style>
+
+    <div class="contenedor">
+        <div class="fondo">
+            <div class="contenido">
+                <img src="imagen/icono-whatsapp.png" alt="icono-telefono" width="30px">
+                <span>TELEFONO</span><br><br>
+                +34 642 33 91 79
+                <br><br><br>
+                <img src="imagen/icono-gmail.png" alt="icono-telefono" width="30px">
+                <span>EMAIL</span><br><br>
+                sebastianbautistanarbaja@gmail.com
+            </div>
+        </div>
+        <div class="contacto">
+            <form action="">
+                <div class="contac">CONTACTAME</div>
+                <input type="text" placeholder="Ingresa tu nombre" required>
+                <input type="email" placeholder="Ingresa tu email" required><br>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+        <div>
+          <a href="mailto:sebastianbautistanarbaja@gmail.com" target="_blank">Gmail</a> |
+          <a href="https://github.com/sebass1212" target="_blank">GitHub</a> |
+          <a href="https://wa.me/34642339179?text=Hola,%20me%20interesa%20contactar%20contigo." target="_blank">WhatsApp</a>
+        </div>
+    </footer>
+
 </body>
 </html>
