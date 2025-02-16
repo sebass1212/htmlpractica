@@ -95,6 +95,9 @@ footer {
 
 
 
+
+
+  /*inicio presentacion*/
   .contenedor_inicio .presentacion{
     width: 30rem;
     text-align: center;
@@ -112,24 +115,27 @@ footer {
   
             font-size: 1rem;
         }
+
     }
 
+    
 
 /*conocimientos*/
     .borde{
         width: 100%;
+        padding-bottom: 10rem;
 
-
-  
         .skils_titulo{
-            background-color: #57c7dd4d;
-            color: rgb(0, 0, 0);
+            background-color: rgb(246, 248, 236);
+            color:black;
+            font-weight: 600;
             text-align: center;
             font-size: 2rem;
             padding-block: 1rem;
             width: 100%;
             padding-right: 1rem;
             margin-left: -0.5rem;
+            margin-bottom: 11rem;
             
         }
 
@@ -140,7 +146,7 @@ footer {
 
             img{
                 width: 7rem;
-                margin-block: 3rem;
+                margin-block: 3rem 5rem;
                 margin-inline: 2rem;
 
 
@@ -152,4 +158,64 @@ footer {
              
             }
         }
-    }   
+
+        .skils .java:hover {
+            .borde:hover{
+                background-color: #02212D;
+            }
+        }
+
+    }  
+
+/*CONTENIDO DE EXP*/
+    .contenedor-exp{
+        background-color: rgb(246, 248, 236);
+        margin-block: 10rem;
+        margin-inline: -0.5rem -0.5rem;
+        padding-top: 5rem;
+        padding-left: 13%;
+        padding-bottom: 10rem;
+        
+        .titulo{
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .bloque-exp{
+            display: flex;
+            gap: 11rem;
+            margin-top: 7rem;
+
+            .fecha{
+                font-size: 1.7rem;
+                margin-inline: 5rem 1rem;
+                opacity: 0.8;
+
+            }
+
+            .experiencia{
+                width: 60rem;
+
+
+                .proyecto{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+
+                
+            }
+            
+        }
+
+        .titulo:hover{
+            transition-duration: 0.5s;
+            color: #00aced;
+            text-shadow: 0 4px 7px rgba(0, 0, 0, 0.226);
+            }
+        .proyecto:hover{
+            transform: translateY(-3px);
+            transition-duration: 0.5s;
+            color: #00aced;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.226);
+        }
+    }
