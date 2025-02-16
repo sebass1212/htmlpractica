@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 html{
     scroll-behavior: smooth;
 }
-/*comprobacion*/
+
 .menu{
     background: #02212D;
     position: fixed;
@@ -56,8 +56,100 @@ html{
 .contenedor_inicio {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-top: 10rem;
-    padding-left: 21%;
+    gap: 3rem;
+
+    padding-left: 20%;
+
+    margin-block: 16rem 15rem;
 }
 
+
+
+/*pie de pagina*/
+footer {
+    background-color: #02212D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-inline: -1rem; 
+    margin-bottom: -1rem;
+  }
+  
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #00aced;
+  }
+
+  footer div {
+    margin-top: 10px;
+  }
+
+
+
+
+  .contenedor_inicio .presentacion{
+    width: 30rem;
+    text-align: center;
+        span{
+            font-size: 3.5rem;
+            font-weight:500; 
+        
+        }
+
+        .sub{
+            font-size: 1.5rem;
+        }
+
+        .descripcion{
+  
+            font-size: 1rem;
+        }
+    }
+
+
+/*conocimientos*/
+    .borde{
+        width: 100%;
+
+
+  
+        .skils_titulo{
+            background-color: #57c7dd4d;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-size: 2rem;
+            padding-block: 1rem;
+            width: 100%;
+            padding-right: 1rem;
+            margin-left: -0.5rem;
+            
+        }
+
+        .skils{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 7rem;
+                margin-block: 3rem;
+                margin-inline: 2rem;
+
+
+            }
+            
+            img:hover{
+                transform: scale(1.1);
+                transition: 0.3s ease-in-out;
+             
+            }
+        }
+    }   
