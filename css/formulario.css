@@ -2,10 +2,14 @@
 *{
     font-family: "Public Sans", serif;
     padding: 0;
+    
 }
 body::-webkit-scrollbar {
     display: none;
   }
+body{
+    background-color: #e4e5e4;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -36,11 +40,10 @@ html{
 
 .menu header ul{
     display: flex;
-    list-style: none;/
+    list-style: none;
 }
 
 .menu header nav ul li a{
-    text-align: none;
     color: white;
     margin: 0 15px;
     padding: 3px;
@@ -52,4 +55,44 @@ html{
 .menu   header nav ul li a:hover{
     color: #598392;
 }
-/*nav*/
+
+.contenedor_inicio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    padding-left: 20%;
+
+    margin-block: 16rem 15rem;
+}
+
+
+
+
+/*pie de pagina*/
+footer {
+    background-color: #02212D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-inline: -1rem; 
+    margin-bottom: -1rem;
+  }
+  
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #00aced;
+  }
+
+  footer div {
+    margin-top: 10px;
+  }
+
