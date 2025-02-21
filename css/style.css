@@ -126,7 +126,7 @@ footer {
         padding-bottom: 10rem;
 
         .skils_titulo{
-            background-color: rgb(246, 248, 236);
+            background-color: rgb(243, 243, 243);
             color:black;
             font-weight: 600;
             text-align: center;
@@ -169,7 +169,7 @@ footer {
 
 /*CONTENIDO DE EXP*/
     .contenedor-exp{
-        background-color: rgb(246, 248, 236);
+        background-color: rgb(243, 243, 243);
         margin-block: 10rem;
         margin-inline: -0.5rem -0.5rem;
         padding-top: 5rem;
