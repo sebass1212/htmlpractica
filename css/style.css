@@ -30,7 +30,7 @@ html{
 
 }
 
-.menu header .logo a{
+.menu header .logo {
     font-size:46px;
     color: white;
 }
