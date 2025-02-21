@@ -30,7 +30,6 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 24px 20px;
-
 }
 
 .menu header .logo a{
@@ -115,18 +114,15 @@ footer {
     margin-block: 2rem;
     width: 100%;
     padding-right: 1rem;
-
-  
 }
 .contenido{
     margin-inline: 25%;
     color: white;
     span{
-    font-size: 1.5rem;
-    padding-left: 1rem;
+        font-size: 1.5rem;
+        padding-left: 1rem;
    }
    img{
-
         transform: translateY(5px);
     }
 }
@@ -141,12 +137,9 @@ footer {
     margin-right: 15%;
     margin-top: 0.7rem;
     box-shadow: 7px 6px 3px rgba(0, 0, 0, 0.493);
-    
-
 }
 .contacto form{
     padding: 5rem;
-
     .contac{
         font-size: 3rem;
         padding-bottom: 5rem;
@@ -166,7 +159,6 @@ footer {
     padding-inline: 2rem;
     background-color: white;
     border-radius: 10px;
-
 }
 
 .contacto button:hover{
